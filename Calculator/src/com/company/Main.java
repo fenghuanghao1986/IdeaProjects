@@ -16,7 +16,9 @@ public class Main {
         String userInput = myObj.nextLine();
 
         // Convert string type input to a array
-        String[] userOperation = userInput.split(",");
+        // String[] userOperation = userInput.split(",");
+        OperactionConvertion newInput = new OperactionConvertion();
+        newInput.Convert(userInput);
 
         calculator mycal = new calculator();
         mycal.Operator(userOperation);
