@@ -16,19 +16,23 @@ public class Main {
         String userInput = myObj.nextLine();
 
         // Convert string type input to a array
-        // String[] userOperation = userInput.split(",");
-        OperactionConvertion newInput = new OperactionConvertion();
-        newInput.Convert(userInput);
+        String[] realInput = userInput.split("");
 
+        // Extract all numbers to a arrlist
+        OperactionConvertion newInput = new OperactionConvertion();
+        ArrayList<Float> test = newInput.ConvertNums(realInput);
+
+        // Extract all operators to a arrlist
+/*
         calculator mycal = new calculator();
         mycal.Operator(userOperation);
         float result = mycal.calculate();
-
-        System.out.print(result);
+*/
+        System.out.print(test);
     }
 }
 
 
 // Testcase
 // 1 + 2 * 3 * 4 + 5 / 6 - 7
-// 1 + 2 * 3 * 4 + 5 / 6
+// 1+2*3*(4+5)/6

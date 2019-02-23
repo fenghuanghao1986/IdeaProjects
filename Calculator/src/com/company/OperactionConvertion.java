@@ -3,30 +3,28 @@ import java.util.*;
 
 public class OperactionConvertion {
 
-<<<<<<< HEAD
-    public void Convert(String[] userInput) {
+    private String tempStr;
+    private ArrayList<Float> numsOnly = new ArrayList<Float>();
+    private ArrayList<String> operatorOnly = new ArrayList<String>();
 
-        private ArrayList<String> newInput = new ArrayList<String>();
-
-        for (int i = 0; i < userInput.length; i ++) {
-            newInput.add(userInput[i]);
-
-
-=======
-    private ArrayList<String> newInput = new ArrayList<String>();
-    private Float<String>
-    public String Convert(String[] userInput) {
-
+    public ArrayList<Float> ConvertNums(String[] userInput) {
 
         for (int i = 0; i < userInput.length; i++) {
-            newInput.add(userInput[i]);
-            if (userInput[i].equals("+") || userInput[i].equals("-") || userInput[i].equals("*") || userInput[i].equals("/")) {
-                i += 1;
-                break;
-            }
-            return newInput;
->>>>>>> 28642273d2734ab7240a502cee785b7010407589
-        }
 
+            ArrayList<String> tempStrArr = new ArrayList<String>();
+            tempStrArr.add(userInput[i]);
+
+            if (userInput[i].equals("+") || userInput[i].equals("-")
+                    || userInput[i].equals("*") || userInput[i].equals("/")
+                    || userInput[i].equals("(") || userInput[i].equals(")")) {
+
+                tempStr = tempStrArr.toString();
+                numsOnly.add(Float.parseFloat(tempStr));
+                i += 1;
+
+            }
+
+        }
+        return numsOnly;
     }
 }
