@@ -119,7 +119,7 @@ public class Calculator {
         innerResult = CalculateWithoutParentheses(innerNums, innerOps);
     }
 
-    public void builNewNums() {
+    public void buildNewNums() {
         for (int i = 0; i < orgNumsOnly.size(); i++) {
             newNumsOnly.add(orgNumsOnly.get(i));
             if (i == pIndex.get(0)) {
