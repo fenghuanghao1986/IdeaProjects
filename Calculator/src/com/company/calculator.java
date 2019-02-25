@@ -5,8 +5,7 @@ public class Calculator {
 
     private ArrayList<String> op = new ArrayList<String>();
     private ArrayList<Float> nums = new ArrayList<Float>();
-    private ArrayList<Float> nums1 = new ArrayList<Float>();
-    private ArrayList<String> op1 = new ArrayList<String>();
+
 
     public void setOp(ArrayList<String> getOperatorOnly) {
         for (int i = 0; i < getOperatorOnly.size(); i++) {
@@ -20,28 +19,29 @@ public class Calculator {
         }
     }
 
-    public float Calculate() {
-
+    public float CalculateWithoutParentheses(ArrayList<Float> inNums, ArrayList<String> inOps) {
         // Do calculations
         float result = 0;
+        ArrayList<Float> nums1 = new ArrayList<Float>();
+        ArrayList<String> op1 = new ArrayList<String>();
 
-        for (int i = 0; i < op.size(); i++) {
-            if (op.get(i).equals("+") || op.get(i).equals("-")) {
-                nums1.add(nums.get(i));
-                op1.add(op.get(i));
+        for (int i = 0; i < inOps.size(); i++) {
+            if (inOps.get(i).equals("+") || inOps.get(i).equals("-")) {
+                nums1.add(inNums.get(i));
+                op1.add(inOps.get(i));
             } else {
-                float temp = nums.get(i);
+                float temp = inNums.get(i);
                 int nexti = -1;
-                for (int k = i; k < op.size(); k++) {
-                    if (op.get(k).equals("+") || op.get(k).equals("-")) {
+                for (int k = i; k < inOps.size(); k++) {
+                    if (inOps.get(k).equals("+") || inOps.get(k).equals("-")) {
                         nexti = k;
-                        op1.add(op.get(k));
+                        op1.add(inOps.get(k));
                         break;
                     }
-                    if (op.get(k).equals("*")) {
-                        temp *= nums.get(k+1);
-                    } else if (op.get(k).equals("/")) {
-                        temp /= nums.get(k+1);
+                    if (inOps.get(k).equals("*")) {
+                        temp *= inNums.get(k+1);
+                    } else if (inOps.get(k).equals("/")) {
+                        temp /= inNums.get(k+1);
                     }
                 }
                 nums1.add(temp);
@@ -69,6 +69,11 @@ public class Calculator {
             }
         }
         return result;
+    }
+
+    public float () {
+
+
     }
 }
 
