@@ -5,7 +5,7 @@ public class OperactionConvertion {
 
     private String tempStr;
     private ArrayList<Float> numsOnly = new ArrayList<>();
-    private Float tempNum;
+    private float tempNum;
     private ArrayList<String> operatorOnly = new ArrayList<>();
     private ArrayList<String> tempStrArr = new ArrayList<>();
 
