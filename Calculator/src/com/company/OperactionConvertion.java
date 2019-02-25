@@ -4,9 +4,9 @@ import java.util.*;
 public class OperactionConvertion {
 
     private String tempStr;
-    private ArrayList<Float> numsOnly = new ArrayList<>();
+    private ArrayList<Float> orgNumsOnly = new ArrayList<>();
     private float tempNum;
-    private ArrayList<String> operatorOnly = new ArrayList<>();
+    private ArrayList<String> orgOpsOnly = new ArrayList<>();
     private ArrayList<String> tempStrArr = new ArrayList<>();
 
     // Collect all numbers and store in one arraylist for calculation purpose
@@ -31,7 +31,7 @@ public class OperactionConvertion {
                 j += 1;
             }
             // Add number to a float list
-            numsOnly.add(tempNum);
+            orgNumsOnly.add(tempNum);
             // Clean the tempStrArr for next float number
             tempStrArr = new ArrayList<>();
         }
@@ -45,20 +45,20 @@ public class OperactionConvertion {
             if (userInput[i].equals("+") || userInput[i].equals("-")
                     || userInput[i].equals("*") || userInput[i].equals("/")
                     || userInput[i].equals("(") || userInput[i].equals(")")) {
-                operatorOnly.add(userInput[i]);
+                orgOpsOnly.add(userInput[i]);
 
             } else {
                 continue;
             }
         }
         // Add a "+" at the end for calculation purpose
-        operatorOnly.add("+");
+        orgOpsOnly.add("+");
         //return operatorOnly;
     }
     public ArrayList<String> getOperatorOnly() {
-        return operatorOnly;
+        return orgOpsOnly;
     }
     public ArrayList<Float> getNumsOnly() {
-        return numsOnly;
+        return orgNumsOnly;
     }
 }
