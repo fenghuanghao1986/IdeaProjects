@@ -3,8 +3,6 @@ import java.util.*;
 
 public class Calculator {
 
-    private ArrayList<String> op = new ArrayList<String>();
-    private ArrayList<Float> nums = new ArrayList<Float>();
     private ArrayList<String> innerOps = new ArrayList<>();
     private ArrayList<Float> innerNums = new ArrayList<>();
     private ArrayList<String> orgOpsOnly = new ArrayList<>();
@@ -19,13 +17,13 @@ public class Calculator {
 
     public void setOp(ArrayList<String> getOperatorOnly) {
         for (int i = 0; i < getOperatorOnly.size(); i++) {
-            op.add(getOperatorOnly.get(i));
+            orgOpsOnly.add(getOperatorOnly.get(i));
         }
     }
 
     public void setNums(ArrayList<Float> getNumsOnly) {
         for (int i = 0; i < getNumsOnly.size(); i++) {
-            nums.add(getNumsOnly.get(i));
+            orgNumsOnly.add(getNumsOnly.get(i));
         }
     }
 
@@ -81,7 +79,7 @@ public class Calculator {
         return result;
     }
 
-    public void findOps(ArrayList<String> orgOpsOnly) {
+    public void findOps() {
 
         for (int i = 0; i < orgOpsOnly.size(); i++) {
             // creating newOpsOnly
@@ -98,25 +96,38 @@ public class Calculator {
                         // exit inner ops search and move on to next op for outter loop
                         i = j + 1;
                         cntPrentheses += 1;
-                        pIndex.add(i-1);
+                        pIndex.add(i - 1);
                         break;
                     }
                 }
-                break;
             }
         }
     }
 
-    public void findInnerNums(ArrayList<Float> orgNumsOnly) {
-        // starting from the first index of "("
-        for (int i = pIndex.get(0); i < cntPrentheses; i++) {
+    public void findInnerNums() {
+        // get innerNums
+        for (int i = pIndex.get(0); i < pIndex.size(); i++) {
             innerNums.add(orgNumsOnly.get(i));
         }
 
     }
-    public float () {
 
+    // calculate inner operation result
+    public void calInner() {
+        findOps();
+        findInnerNums();
+        innerResult = CalculateWithoutParentheses(innerNums, innerOps);
+    }
 
+    public void builNewNums() {
+        for (int i = 0; i < orgNumsOnly.size(); i++) {
+            newNumsOnly.add(orgNumsOnly.get(i));
+            if (i == pIndex.get(0)) {
+                i = pIndex.get(cntPrentheses);
+                newNumsOnly.add(innerResult);
+                continue;
+            }
+        }
     }
 }
 
