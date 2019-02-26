@@ -33,7 +33,7 @@ public class Main {
         mycal.setNums(nums);
         mycal.setOp(ops);
         // Calculate result and print
-        float result = mycal.Calculate();
+        float result = mycal.CalculateWithoutParentheses();
         System.out.print(result);
     }
 }
