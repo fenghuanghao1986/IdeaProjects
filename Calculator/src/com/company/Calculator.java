@@ -13,6 +13,7 @@ public class Calculator {
     private int tempIndex;
     private int cntPrentheses = 0;
     private float innerResult;
+    private float finalResult;
 
 
     public void setOp(ArrayList<String> getOperatorOnly) {
@@ -29,9 +30,9 @@ public class Calculator {
 
     public float CalculateWithoutParentheses(ArrayList<Float> inNums, ArrayList<String> inOps) {
         // Do calculations
-        float result = 0;
-        ArrayList<Float> nums1 = new ArrayList<Float>();
-        ArrayList<String> op1 = new ArrayList<String>();
+        float result;
+        ArrayList<Float> nums1 = new ArrayList<>();
+        ArrayList<String> op1 = new ArrayList<>();
 
         for (int i = 0; i < inOps.size(); i++) {
             if (inOps.get(i).equals("+") || inOps.get(i).equals("-")) {
@@ -79,13 +80,70 @@ public class Calculator {
         return result;
     }
 
+    public void calWithParentheses() {
 
-    // calculate inner operation result
-    public void calInner() {
-        findOps();
-        findInnerNums();
+        for (int i = 0; i < orgOpsOnly.size(); i++) {
+            if (!orgOpsOnly.get(i).equals("(")) {
+                // creating newOpsOnly
+                newOpsOnly.add(orgOpsOnly.get(i));
+            }
+            // creating innerOps
+            if (orgOpsOnly.get(i).equals("(")) {
+                // collecting "(" index in the orgOps
+                tempIndex = i;
+                pIndex.add(i);
+                for (int j = i + 1; j < orgOpsOnly.size(); j++) {
+                    // find the right end parentheses and update operatorOnly
+                    if (orgOpsOnly.get(j).equals(")")) {
+                        // exit inner ops search and move on to next op for outter loop
+                        i = j + 1;
+                        cntPrentheses += 1;
+                        pIndex.add(i-1);
+                        newOpsOnly.add(orgOpsOnly.get(i));
+                        break;
+                    }
+                    innerOps.add(orgOpsOnly.get(j));
+                }
+                innerOps.add("+");
+                System.out.println("innerops");
+                System.out.println(innerOps);
+            }
+            System.out.println("pindex");
+            System.out.println(pIndex);
+        }
+        // creating innerNums
+        for (int i = pIndex.get(0); i < pIndex.get(pIndex.size()-1); i++) {
+            if (i == pIndex.get(0)) {
+                innerNums.add(orgNumsOnly.get(i+1));
+                continue;
+            }
+            innerNums.add(orgNumsOnly.get(i+1));
+        }
+        System.out.println("innernums");
+        System.out.println(innerNums);
+
+        // calculate the inner result
         innerResult = CalculateWithoutParentheses(innerNums, innerOps);
+        System.out.println("innerresult");
+        System.out.println(innerResult);
+
+        // build newNumsOnly
+        for (int i = 0; i < orgNumsOnly.size(); i++) {
+            if (i == pIndex.get(0)) {
+                i = pIndex.get(pIndex.size()-1) + 1;
+                newNumsOnly.add(innerResult);
+                continue;
+            }
+            newNumsOnly.add(orgNumsOnly.get(i));
+        }
+        System.out.println("newNums");
+        System.out.println(newNumsOnly);
+        System.out.println("newops");
+        System.out.println(newOpsOnly);
+        finalResult = CalculateWithoutParentheses(newNumsOnly, newOpsOnly);
     }
-
-
+    public float getFinalResult() {
+        return finalResult;
+    }
 }
+
