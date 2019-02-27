@@ -105,11 +105,8 @@ public class Calculator {
                     innerOps.add(orgOpsOnly.get(j));
                 }
                 innerOps.add("+");
-                System.out.println("innerops");
-                System.out.println(innerOps);
             }
-            System.out.println("pindex");
-            System.out.println(pIndex);
+
         }
         // creating innerNums
         for (int i = pIndex.get(0); i < pIndex.get(pIndex.size()-1); i++) {
@@ -119,13 +116,9 @@ public class Calculator {
             }
             innerNums.add(orgNumsOnly.get(i+1));
         }
-        System.out.println("innernums");
-        System.out.println(innerNums);
 
         // calculate the inner result
         innerResult = CalculateWithoutParentheses(innerNums, innerOps);
-        System.out.println("innerresult");
-        System.out.println(innerResult);
 
         // build newNumsOnly
         for (int i = 0; i < orgNumsOnly.size(); i++) {
@@ -136,10 +129,21 @@ public class Calculator {
             }
             newNumsOnly.add(orgNumsOnly.get(i));
         }
+        /*
+        below print outs is for debuging the logic in the code.
+        System.out.println("innerops");
+        System.out.println(innerOps);
+        System.out.println("pindex");
+        System.out.println(pIndex);
+        System.out.println("innernums");
+        System.out.println(innerNums);
+        System.out.println("innerresult");
+        System.out.println(innerResult);
         System.out.println("newNums");
         System.out.println(newNumsOnly);
         System.out.println("newops");
         System.out.println(newOpsOnly);
+        */
         finalResult = CalculateWithoutParentheses(newNumsOnly, newOpsOnly);
     }
     public float getFinalResult() {
