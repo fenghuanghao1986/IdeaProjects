@@ -61,48 +61,4 @@ public class OperactionConvertion {
     public ArrayList<Float> getNumsOnly() {
         return orgNumsOnly;
     }
-
-    public void findOps() {
-
-        for (int i = 0; i < orgOpsOnly.size(); i++) {
-            // creating newOpsOnly
-            newOpsOnly.add(orgOpsOnly.get(i));
-            // creating innerOps
-            if (orgOpsOnly.get(i).equals("(")) {
-                // collecting "(" index in the orgOps
-                tempIndex = i;
-                pIndex.add(i);
-                for (int j = i + 1; j < orgOpsOnly.size(); j++) {
-                    innerOps.add(orgOpsOnly.get(j));
-                    // find the right end parentheses and update operatorOnly
-                    if (orgOpsOnly.get(j).equals(")")) {
-                        // exit inner ops search and move on to next op for outter loop
-                        i = j + 1;
-                        cntPrentheses += 1;
-                        pIndex.add(i - 1);
-                        break;
-                    }
-                }
-            }
-        }
-    }
-
-    public void findInnerNums() {
-        // get innerNums
-        for (int i = pIndex.get(0); i < pIndex.size(); i++) {
-            innerNums.add(orgNumsOnly.get(i));
-        }
-
-    }
-
-    public void buildNewNums() {
-        for (int i = 0; i < orgNumsOnly.size(); i++) {
-            newNumsOnly.add(orgNumsOnly.get(i));
-            if (i == pIndex.get(0)) {
-                i = pIndex.get(cntPrentheses);
-                newNumsOnly.add(innerResult);
-                continue;
-            }
-        }
-    }
 }
