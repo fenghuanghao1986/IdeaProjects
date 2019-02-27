@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Please provide a function you want me to calculate:");
         System.out.println("Input format: 1+2*3*(4+5)/6");
         System.out.println("You input: ");
+
         // Getting input from user
         Scanner myObj = new Scanner(System.in);
         String userInput = myObj.nextLine();
@@ -32,8 +33,10 @@ public class Main {
         // Set operators and numbers to mycal
         mycal.setNums(nums);
         mycal.setOp(ops);
+
         // Calculate result and print
-        float result = mycal.CalculateWithoutParentheses();
+        mycal.calWithParentheses();
+        float result = mycal.getFinalResult();
         System.out.print(result);
     }
 }
