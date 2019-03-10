@@ -15,6 +15,19 @@ public class Calculator {
     private float innerResult;
     private float finalResult;
 
+    Calculator() {
+        ArrayList<String> innerOps = new ArrayList<>();
+        ArrayList<Float> innerNums = new ArrayList<>();
+        ArrayList<String> orgOpsOnly = new ArrayList<>();
+        ArrayList<Float> orgNumsOnly = new ArrayList<>();
+        ArrayList<String> newOpsOnly = new ArrayList<>();
+        ArrayList<Float> newNumsOnly = new ArrayList<>();
+        ArrayList<Integer> pIndex = new ArrayList<>();
+        int tempIndex;
+        int cntPrentheses = 0;
+        float innerResult;
+        float finalResult;
+    }
 
     public void setOp(ArrayList<String> getOperatorOnly) {
         for (int i = 0; i < getOperatorOnly.size(); i++) {
