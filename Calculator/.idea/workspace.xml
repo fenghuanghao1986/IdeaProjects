@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="244">
+              <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -81,7 +81,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1001" />
+    <option name="x" value="929" />
+    <option name="width" value="929" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -92,8 +93,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,6 +125,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FractionCalculator" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -188,9 +190,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1001" height="1080" extended-state="0" />
+    <frame x="929" y="0" width="929" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1495228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16647531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -270,13 +273,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/calculatorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/CalculatorTest.groovy" />
     <entry file="file://$PROJECT_DIR$/src/com/company/CalculatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/OperactionConvertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -284,10 +280,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/OperactionConvertion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="244">
+          <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="37" />
         </state>
       </provider>
     </entry>
