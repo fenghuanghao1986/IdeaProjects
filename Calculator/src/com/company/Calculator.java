@@ -3,18 +3,32 @@ import java.util.*;
 
 public class Calculator {
 
-    private ArrayList<String> innerOps = new ArrayList<>();
-    private ArrayList<Float> innerNums = new ArrayList<>();
-    private ArrayList<String> orgOpsOnly = new ArrayList<>();
-    private ArrayList<Float> orgNumsOnly = new ArrayList<>();
-    private ArrayList<String> newOpsOnly = new ArrayList<>();
-    private ArrayList<Float> newNumsOnly = new ArrayList<>();
-    private ArrayList<Integer> pIndex = new ArrayList<>();
+    private ArrayList<String> innerOps;
+    private ArrayList<Float> innerNums;
+    private ArrayList<String> orgOpsOnly;
+    private ArrayList<Float> orgNumsOnly;
+    private ArrayList<String> newOpsOnly;
+    private ArrayList<Float> newNumsOnly;
+    private ArrayList<Integer> pIndex;
     private int tempIndex;
-    private int cntPrentheses = 0;
+    private int cntPrentheses;
     private float innerResult;
     private float finalResult;
 
+    public Calculator() {
+
+        innerOps = new ArrayList<>();
+        innerNums = new ArrayList<>();
+        orgOpsOnly = new ArrayList<>();
+        orgNumsOnly = new ArrayList<>();
+        newOpsOnly = new ArrayList<>();
+        newNumsOnly = new ArrayList<>();
+        pIndex = new ArrayList<>();
+        tempIndex = 0;
+        cntPrentheses = 0;
+        innerResult = 0;
+        finalResult = 0;
+    }
 
     public void setOp(ArrayList<String> getOperatorOnly) {
         for (int i = 0; i < getOperatorOnly.size(); i++) {
