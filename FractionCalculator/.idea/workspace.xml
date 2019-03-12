@@ -1,7 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98ef9149-e3a0-4601-ad5d-96eef49bfc9f" name="Default Changelist" comment="" />
+    <list default="true" id="98ef9149-e3a0-4601-ad5d-96eef49bfc9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FractionCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Add/class-use/testAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Add/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Add/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Add/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Add/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Add/testAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Minus/class-use/testMinus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Minus/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Minus/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Minus/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Minus/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Minus/testMinus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/Calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/Fraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/class-use/Calculator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/class-use/Fraction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/calc/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/exception/MyException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/exception/class-use/MyException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/exception/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/exception/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/exception/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/com/exception/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/resources/inherit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/Com.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/AllTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/AllTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/testAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/testDivide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/testMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/testMinus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/testMultiply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/class-use/testPower.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/testAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/testDivide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/testMain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/testMinus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/testMultiply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/all/testPower.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/class-use/Com.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/test/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calc/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calc/Fraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exception/MyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/testAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/testDivide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/testMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/testMinus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/testMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/all/testPower.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,43 +106,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/calc/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-462">
-              <caret line="32" column="73" lean-forward="true" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/exception/MyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/calc/Fraction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="344" />
-    <option name="y" value="-18" />
-    <option name="width" value="1001" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="929" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,13 +122,13 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552195668539" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Howard_Feng/java-design-patterns/factory-kit" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,6 +141,55 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="FractionCalculator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="FractionCalculator" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -90,20 +205,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="0" y="0" width="929" height="1080" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12940529" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18714121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -111,14 +221,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -131,22 +246,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/calc/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="32" column="73" lean-forward="true" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+        <state relative-caret-position="493">
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/exception/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/calc/Fraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+        <state relative-caret-position="261">
+          <caret line="193" column="5" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
         </state>
       </provider>
     </entry>
