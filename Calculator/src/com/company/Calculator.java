@@ -17,17 +17,17 @@ public class Calculator {
 
     public Calculator() {
 
-        innerOps        = new ArrayList<>();
-        innerNums       = new ArrayList<>();
-        orgOpsOnly      = new ArrayList<>();
-        orgNumsOnly     = new ArrayList<>();
-        newOpsOnly      = new ArrayList<>();
-        newNumsOnly     = new ArrayList<>();
-        pIndex          = new ArrayList<>();
-        tempIndex       = 0;
-        cntPrentheses   = 0;
-        innerResult     = 0;
-        finalResult     = 0;
+        innerOps = new ArrayList<>();
+        innerNums = new ArrayList<>();
+        orgOpsOnly = new ArrayList<>();
+        orgNumsOnly = new ArrayList<>();
+        newOpsOnly = new ArrayList<>();
+        newNumsOnly = new ArrayList<>();
+        pIndex = new ArrayList<>();
+        tempIndex = 0;
+        cntPrentheses = 0;
+        innerResult = 0;
+        finalResult = 0;
     }
 
     public void setOp(ArrayList<String> getOperatorOnly) {
