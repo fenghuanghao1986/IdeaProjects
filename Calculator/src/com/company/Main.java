@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Provide instructions for user
         System.out.println("Please provide a function you want me to calculate:");
-        System.out.println("Input format: 1+2*3*(4+5)/6");
+        System.out.println("Input format: 1+2*3*(4+5)/6, no space needed between numbers and operators");
         System.out.println("You input: ");
 
         // Getting input from user
